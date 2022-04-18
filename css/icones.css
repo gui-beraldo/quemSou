@@ -1,0 +1,47 @@
+.icone--aceno {
+    background-image: url(../assets/icons/waving-hand.png);
+}
+
+.icone--foguete {
+    background-image: url(../assets/icons/rocket.png);
+}
+
+.icone--graduacao {
+    background-image: url(../assets/icons/graduation.png);
+}
+
+.icone--github {
+    background-image: url(../assets/logos/github-logo.svg);
+}
+
+.icone--linkedin {
+    background-image: url(../assets/logos/linkedin-logo.svg);
+}
+
+.icone--instagram {
+    background-image: url(../assets/logos/instagram-logo.svg);
+}
+
+.icone--smiling {
+    background-image: url(../assets/icons/smiling.png);
+}
+
+.icone--raio {
+    background-image: url(../assets/icons/high-voltage.png);
+}
+
+.icone--livros {
+    background-image: url(../assets/icons/books.png);
+}
+
+.icone--homem-notebook {
+    background-image: url(../assets/icons/man-tech.png);
+}
+
+.icone--laptop {
+    background-image: url(../assets/icons/laptop.png);
+}
+
+.icone--construcao {
+    background-image: url(../assets/icons/construction.png);
+}

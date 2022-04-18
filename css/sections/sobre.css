@@ -1,0 +1,76 @@
+.sobre {
+    padding-top: 4rem;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    padding-top: 1rem;
+}
+
+.subtitulo-icone {
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: left bottom;
+
+    padding-left: 2.2rem;
+}
+
+.sobre p {
+    max-width: 740px;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.125rem;
+
+    margin-top: .875rem;
+}
+
+.sobre li {
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.125rem;
+
+    margin-bottom: .2rem;
+}
+
+.sobre__fotos {
+    width: 80%;
+    max-width: 340px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    padding-top: 2rem;
+}
+
+.sobre__fotos-img--principal {
+    width: 75%;
+
+    position: relative;
+    right: 10%;
+
+    z-index: 1;
+}
+
+.sobre__fotos-img--secundaria {
+    width: 25%;
+
+    position: relative;
+    left: 10%;
+
+    z-index: 2;
+}
+
+@media screen and (min-width: 820px) {
+    .sobre-mim {
+        display: flex;
+    }
+
+    .sobre__fotos {
+        width: 135%;
+    }
+}

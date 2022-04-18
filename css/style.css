@@ -1,0 +1,40 @@
+@import url(reset.css);
+@import url(var.css);
+@import url(icones.css);
+@import url(cabecalho.css);
+@import url(sections/intro.css);
+@import url(sections/sobre.css);
+@import url(sections/skills.css);
+@import url(sections/contato.css);
+@import url(sections/rodape.css);
+@import url(construcao.css);
+
+:root {
+    font-family: system-ui, sans-serif;
+    font-weight: 700;
+    color: var(--cor-primaria);
+}
+
+.container {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+@media screen and (min-width: 1080px) {
+    .container {
+        margin: 0 auto;
+        width: 1080px;
+    }
+}
+
+.italico {
+    font-style: italic;
+}
+
+.negrito {
+    font-weight: 500;
+}
+
+.enfase {
+    color: var(--cor-enfase);
+}

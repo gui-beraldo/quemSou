@@ -1,0 +1,33 @@
+.cabecalho {
+    width: 100%;
+    min-height: 96px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+
+    padding: 1.75rem 1.75rem;
+
+    justify-content: space-between;
+
+    box-shadow: 0px 10px 10px #00000005;
+}
+
+@media screen and (min-width: 1080px) {
+    .cabecalho__div {
+        margin: 0 auto;
+        width: 1080px;
+    }
+}
+
+.cabecalho__titulo {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.cabecalho__menu {
+    width: 1.5rem;
+    vertical-align: middle;
+
+    display: none;
+}

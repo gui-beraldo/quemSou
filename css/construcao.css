@@ -1,0 +1,44 @@
+.construcao {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 2.5rem;
+    height: 30vh;
+
+    background-color: rgb(255, 255, 0, 5%);
+}
+
+.construcao__div-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.construcao__titulo {
+    font-size: 2rem;
+    padding-left: 7rem;
+    line-height: 2.4rem;
+
+    width: 100%;
+    max-width: 334px;
+    box-sizing: border-box;
+}
+
+.construcao__icone {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 4.8rem;
+    background-position: center left 1rem;
+}
+
+.construcao__descricao {
+    text-align: center;
+    padding-top: 1.5rem;
+
+    width: 100%;
+    max-width: 334px;
+
+    font-weight: 400;
+}
